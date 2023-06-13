@@ -4,8 +4,9 @@
 NERA (Números, Estratégias de ensino e Recursos de Aprendizagem) é um software de gamificação do ensino de matemática. O objetivo do projeto é oferecer uma plataforma interativa e divertida para ajudar estudantes a aprimorar suas habilidades matemáticas por meio de jogos, atividades personalizadas e acompanhamento do desempenho.
 
 
-
-![Logo](./public/img/logoHorizontal%201.png)
+<p align="center">
+  <a href="/"><img src="./public/img/logoHorizontal%201.png" alt="NERA Logo"></a>
+</p>
 
 ## Documentação de cores
 

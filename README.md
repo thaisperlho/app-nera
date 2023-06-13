@@ -5,7 +5,7 @@ NERA (Números, Estratégias de ensino e Recursos de Aprendizagem) é um softwar
 
 
 
-![Logo](/public/img/logoHorizontal%201.png)
+![Logo](./public/img/logoHorizontal%201.png)
 
 ## Documentação de cores
 
@@ -77,13 +77,13 @@ Insira as configurações necessárias do banco de dados.
 ### Script
 === "Postegresl"
     <figure markdown>
-        ![PostgreSQL](/public/img/postgresql-original.svg)
-        <figcaption>[Script PostgreSQL](/script/PostgreSQL.sql)</figcaption>
+        ![PostgreSQL](./public/img/postgresql-original.svg)
+        <figcaption>[Script PostgreSQL](./script/PostgreSQL.sql)</figcaption>
     </figure>
 === "Mysql"
     <figure markdown>
-        ![MySQL](/public/img/mysql-original.svg)
-        <figcaption>[Script MySQL](/script/MySQL.sql)</figcaption>
+        ![MySQL](./public/img/mysql-original.svg)
+        <figcaption>[Script MySQL](./script/MySQL.sql)</figcaption>
     </figure>
 
 ## Uso

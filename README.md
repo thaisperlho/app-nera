@@ -5,7 +5,7 @@ NERA (Números, Estratégias de ensino e Recursos de Aprendizagem) é um softwar
 
 
 <p align="center">
-  <a href="/"><img src="./public/img/logoneraMinimizado" alt="NERA Logo"></a>
+  <a href="/"><img src="./public/img/logoneraMinimizado.png" alt="NERA Logo"></a>
 </p>
 
 ## Documentação de cores

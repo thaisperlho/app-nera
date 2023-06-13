@@ -1,0 +1,161 @@
+.div_modulo_fracao {
+    position: relative;
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.img_frac_modulo {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 10%;
+    top: 6%;
+}
+
+.img_icone_modulo {
+    position: absolute;
+    width: 180px;
+    height: 190px;
+    left: 70%;
+    top: 28%;
+}
+
+.img_lupa_modulo {
+    position: absolute;
+    width: 180px;
+    height: 190px;
+    left: 17%;
+    top: 65%;
+}
+
+.h1_frac_modulo {
+    position: absolute;
+    width: 209px;
+    height: 62px;
+    left: 24%;
+    top: 5%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 64px;
+    line-height: 75px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.h2_txt_modulo {
+    position: absolute;
+    width: 205px;
+    height: 41px;
+    top: 70%;
+    left: 30%;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: capitalize;
+
+    color: #888585;
+}
+
+.ex1 {
+    position: absolute;
+    background: #F20574;
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 100%;
+    transition: 0.3s;
+
+    top: 35%;
+    left: 30%;
+}
+
+.ex1:hover {
+    width: 90px;
+    height: 90px;
+}
+
+.ex2 {
+    position: absolute;
+    background: #F20574;
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 100%;
+    transition: 0.3s;
+
+    top: 51%;
+    left: 49%;
+}
+
+.ex2:hover {
+    width: 90px;
+    height: 90px;
+    top: 50%;
+}
+
+.ex3 {
+    position: absolute;
+    background: #F20574;
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 100%;
+    transition: 0.3s;
+
+    top: 70%;
+    left: 66%;
+}
+
+.ex3:hover {
+    width: 90px;
+    height: 90px;
+}
+
+.ex4 {
+    position: absolute;
+    background: #F20574;
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 100%;
+    transition: 0.3s;
+
+    top: 93%;
+    left: 50%;
+}
+
+.ex4:hover {
+    width: 90px;
+    height: 90px;
+}
+
+.Line_modulo_1,
+.Line_modulo_2,
+.Line_modulo_3 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+.Line_modulo_1 {
+    top: 39%;
+    left: 37%;
+}
+
+.Line_modulo_2 {
+    top: 57%;
+    left: 55%;
+}
+
+.Line_modulo_3 {
+    top: 78%;
+    left: 55%;
+}

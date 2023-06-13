@@ -1,0 +1,73 @@
+.div_trilha {
+    position: relative;
+    display: flex;
+    left: 35%;
+    padding-top: 5%;
+}
+
+.h1_trilha {
+    position: absolute;
+    width: 208px;
+    height: 62px;
+    left: 110%;
+    top: 3%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #135794;
+}
+
+.img_trilha {
+    position: relative;
+    height: 70px;
+    width: 70px;
+}
+
+.div_topicos {
+    position: relative;
+    display: flex;
+    padding-top: 13%;
+    left: 7%;
+}
+
+#img {
+    padding: 30px;
+}
+
+#img:hover{
+    background-color: #eff3f5;
+}
+
+.img_frac{
+    position: relative;
+    width: 116px;
+    height: 128px;
+  
+}
+
+.img_expre{
+    width: 132px;
+    height: 138px;
+    margin-top: 30%;
+}
+
+.img_porc{
+    width: 148px;
+    height: 124px;
+    margin-top: 10%;
+}
+
+.img_metri{
+    width: 121px;
+    height: 128px;
+    margin-top: 30%;
+}
+
+.img_geo{
+    width: 133px;
+    height: 124px;
+}

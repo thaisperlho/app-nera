@@ -1,0 +1,74 @@
+
+.section-questao{
+	max-width: 100%;
+	text-align: center;
+	justify-content: center;
+}
+.section-questao h1{
+	font-size: 30px;
+}
+.section-questao img{
+	margin-top: 5%;
+	width: 20%;
+}
+.container {
+	margin-top: 2%;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.container img{
+	width: 50%;
+	height: 80%;
+}
+.container .btn {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 100px;
+	margin: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.btn  {
+	position: absolute;
+	cursor: pointer;
+	border: none;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgba(255, 255, 255, 0.05);
+	box-shadow: 0 15px 15px rgba(0, 0, 0, 0.3);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	border-radius: 30px;
+	padding: 10px;
+	letter-spacing: 1px;
+	text-decoration: none;
+	overflow: hidden;
+	color: #0c0c0c;
+	font-size: 250%;
+	font-weight: 400px;
+	z-index: 1;
+	transition: 0.5s;
+	backdrop-filter: blur(15px);
+}
+
+.rdn{
+    margin: 10px;
+	background: white;
+	border: none;
+	cursor: pointer;
+	border-radius: 40px;
+}
+
+#dica{
+	background: grey;
+}

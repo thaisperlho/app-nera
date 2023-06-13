@@ -1,0 +1,64 @@
+<div class="content-questao">
+	<section class="section-questao">
+		<h1>2-{{questao2.enunciado}}</h1>
+		<img src="/img/2.svg" alt="">
+	</section>
+	<section class="container" id="list">
+		<button class="btn" onclick="verificar()" id="err1">{{questao2.alternativa1}}</button>
+		<button class="btn" onclick="verificar()" id="certa" >{{questao2.alternativa2}}</button>
+		<button class="btn" onclick="verificar()" id="err2" >{{questao2.alternativa3}}</button>
+		<button class="btn" onclick="verificar()" id="err3" >{{questao2.alternativa4}}</button>
+
+	</section>
+	<section class="container">
+		<button class="rdn" name="reload" disabled id="reload" onclick="reload()"><img src="/img/atualizar.png" alt=""></button>
+		<button class="rdn" name="dica" id="dica" onclick="dica()"><img src="/img/ideia.png" alt=""></button>
+		<button class="rdn" name="next" disabled id="next" onclick="next()"><img src="/img/next.png" alt=""></button>
+	</section>
+	<script>
+		function verificar(alternativa) {
+			var li = document.getElementById("list");
+			var certa = document.getElementById("certa");
+			var err1 = document.getElementById("err1");
+			var err2 = document.getElementById("err2");
+			var err3 = document.getElementById("err3");
+			var reload = document.getElementById("reload");
+			var dica = document.getElementById("dica");
+			var next = document.getElementById("next");
+
+			alternativa = '{{questao2.alternativa_correta}}';
+
+			li.addEventListener("click", function (event) {
+
+				if (event.target.innerHTML == alternativa) {
+					certa.style.backgroundColor = "green";
+					certa.setAttribute('disabled', '')
+					err1.setAttribute('disabled', '');
+					err2.setAttribute('disabled', '');
+					err3.setAttribute('disabled', '');
+					next.removeAttribute('disabled');
+					next.style.background = 'grey';
+
+				} else {
+					event.target.style.backgroundColor = "red";
+					certa.setAttribute('disabled', '')
+					err1.setAttribute('disabled', '');
+					err2.setAttribute('disabled', '');
+					err3.setAttribute('disabled', '');
+					reload.removeAttribute('disabled');
+					reload.style.background = 'grey';
+				}
+			})
+		}
+
+		function reload(){
+			window.location.reload(false);
+		}
+		function next(){
+			window.location.href = "http://localhost:8081/questao3";
+		}
+		function dica(){
+			alert("olha os pedaço da pizza ai cara, mds do ceu, para de ser burro")
+		}
+	</script>
+</div>

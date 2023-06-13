@@ -1,0 +1,147 @@
+.div_form_cad {
+    flex-direction: column;
+    background-color: #F2B705;
+    width: 410px;
+    height: 593px;
+    display: flex;
+    margin-right: 48px;
+    margin-bottom: 18px;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.linha_cad_1,
+.linha_cad_2 {
+    position: absolute;
+    width: 120px;
+    height: 1px;
+    border: none;
+    background-color: #000000;
+}
+
+.linha_cad_1 {
+    top: 240px;
+    left: 0px;
+}
+
+.linha_cad_2 {
+    top: 240px;
+    left: 180px;
+}
+
+.p_cad_OU {
+    position: absolute;
+    width: 19px;
+    height: 15px;
+    top: 227px;
+    left: 140px;
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.input_user,
+.input_senha {
+    border: none;
+    width: 300px;
+    height: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+}
+
+.button_cad,
+.button_google_cad {
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    width: 300px;
+    height: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+}
+
+.button_cad {
+    position: absolute;
+    top:170px;
+    background: #034C8C;
+    color: #fff;
+}
+
+.button_google_cad {
+    position: absolute;
+    bottom: 60px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.form_cad {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 210px;
+    min-height: 50vh;
+    min-width: 25vh;
+}
+
+.p_cad_termos{
+position: absolute;
+width: 380px;
+left: -35px;
+top: 350px;
+height: 29px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300px;
+font-size: 15px;
+line-height: 23px;
+text-align: center;
+
+color: rgba(0, 0, 0, 0.7);
+
+}
+
+.h1_perfil_cad{
+position: absolute;
+width: 288px;
+height: 46px;
+top: 73px;
+right: 75px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700px;
+font-size: 36px;
+line-height: 42px;
+
+color: #FFFFFF;
+
+}
+
+.input_user_cad {
+    border: none;
+    width: 300px;
+    height: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+}
+
+.input_senha_cad, .input_confirmar_senha_cad{
+    border: none;
+    width: 145px;
+    height: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+}
+
+.input_confirmar_senha_cad{
+    position: absolute;
+    top: 78px;
+    left: 160px;
+}

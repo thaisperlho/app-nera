@@ -76,9 +76,8 @@ Abra o arquivo db.js localizado na pasta models.
 Insira as configurações necessárias do banco de dados.
 
 ### Script
-1. [Postegresl](./script/PostgreSQL.sql)<img align="center" alt="Postegresl" height="50" width="50" src="./public/img/postgresql-original.svg">
-    [![PostgreSQL](./public/img/postgresql-original.svg)](./script/PostgreSQL.sql)
-2. [Mysql](./script/MySQL.sql)<img align="center" alt="Mysql" height="50" width="50" src="./public/img/mysql-original.svg">
+1. [Postegresl](./script/PostgreSQL.sql) <img align="center" alt="Postegresl" height="50" width="50" src="./public/img/postgresql-original.svg">
+2. [Mysql](./script/MySQL.sql) <img align="center" alt="Mysql" height="50" width="50" src="./public/img/mysql-original.svg">
     
 
 ## Uso

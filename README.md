@@ -76,16 +76,10 @@ Abra o arquivo db.js localizado na pasta models.
 Insira as configurações necessárias do banco de dados.
 
 ### Script
-=== "Postegresl"
-    <figure markdown>
-        ![PostgreSQL](./public/img/postgresql-original.svg)
-        <figcaption>[Script PostgreSQL](./script/PostgreSQL.sql)</figcaption>
-    </figure>
-=== "Mysql"
-    <figure markdown>
-        ![MySQL](./public/img/mysql-original.svg)
-        <figcaption>[Script MySQL](./script/MySQL.sql)</figcaption>
-    </figure>
+1. "Postegresl"
+    [![PostgreSQL](./public/img/postgresql-original.svg)](./script/PostgreSQL.sql)
+2. "Mysql"
+        [![MySQL](./public/img/mysql-original.svg)](./script/MySQL.sql)
 
 ## Uso
 Execute o projeto usando o seguinte comando:

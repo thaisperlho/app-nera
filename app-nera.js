@@ -43,6 +43,11 @@ app.get('/log-aluno', function (req, res) {
 app.get('/tela-trilha', function (req, res) {
     res.render('trilha');
 });
+//rota para tela de perfil parateste sem sessao
+app.get('/tela-perfil', function (req, res) {
+    res.render('telaPerfil');
+});
+
 
 app.get('/trilha-modulos', function (req, res) {
     res.render('trilha_modulos');
